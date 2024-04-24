@@ -50,7 +50,7 @@ public class GeneradorDeArchivo {
 }
 ```
 
-1. Creamos la instancia de la clase GeneradorDeArchivo en la clase Principal. Y ejecutamos la app.
+1. Se crea la instancia de la clase GeneradorDeArchivo en la clase Principal. Y se ejecuta la app.
 
 ```java
 public class Principal {
@@ -76,4 +76,4 @@ public class Principal {
 
 ## Ejemplo de entrada y salida
 
-![ejemplo-entrada-salida](https://i.imgur.com/41keok3.png)
+![ejemplo-entrada-salida](https://imgur.com/lmnmqSj.png)
