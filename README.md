@@ -43,7 +43,7 @@
 public class GeneradorDeArchivo {
     public void guardarJson(Pelicula pelicula) throws IOException {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        FileWriter escritura = new FileWriter(pelicula.title() + ".jason");
+        FileWriter escritura = new FileWriter(pelicula.title() + ".json");
         escritura.write(gson.toJson(pelicula));
         escritura.close();
     }
